@@ -4,7 +4,7 @@
   "description": "109-2 Cloud Applications Practice Final Project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ming119/109-2_Cloud-Application-Practice_Project/issues"
   },
-  "homepage": "https://github.com/Ming119/109-2_Cloud-Application-Practice_Project#readme"
+  "homepage": "https://github.com/Ming119/109-2_Cloud-Application-Practice_Project#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
